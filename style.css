@@ -1,0 +1,74 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #4fbdba;
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 6px;
+  background: #333;
+  color: #fff;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#playBtn {
+  background-color: #4caf50;
+  color: white;
+}
+#playBtn:hover {
+  background-color: #45a049;
+}
+
+#pauseBtn {
+  background-color: #ff9800;
+  color: white;
+}
+#pauseBtn:hover {
+  background-color: #e68a00;
+}
+
+#stopBtn {
+  background-color: #f44336;
+  color: white;
+}
+#stopBtn:hover {
+  background-color: #da190b;
+}
+
+#trackName {
+  margin-top: 20px;
+  font-style: italic;
+  color: #ccc;
+}

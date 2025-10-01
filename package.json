@@ -1,23 +1,23 @@
 {
-  "name": "music-player-desktop-",
+  "name": "music-player-desktop",
   "version": "1.0.0",
-  "description": "🎶 Music Player — A simple cross-platform desktop app built with Electron.js. Play, pause, and stop your favorite local audio files in a clean, minimal interface. Made to explore how web technologies can power real desktop applications",
-  "main": "index.js",
+  "description": "🎶 Music Player — A simple cross-platform desktop app built with Electron.js. Play, pause, and stop your favorite local audio files in a clean, minimal interface. Made to explore how web technologies can power real desktop applications.",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wendy-Patricia/Music-player-desktop-.git"
+    "url": "git+https://github.com/Wendy-Patricia/Music-player-desktop.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["electron", "music", "player", "desktop", "audio"],
+  "author": "Wendy Patricia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Wendy-Patricia/Music-player-desktop-/issues"
+    "url": "https://github.com/Wendy-Patricia/Music-player-desktop/issues"
   },
-  "homepage": "https://github.com/Wendy-Patricia/Music-player-desktop-#readme",
+  "homepage": "https://github.com/Wendy-Patricia/Music-player-desktop#readme",
   "devDependencies": {
     "electron": "^38.2.0"
   }
